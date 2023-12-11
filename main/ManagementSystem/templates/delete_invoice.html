@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container text-center" style="margin-top: 25%">
+        <form method="POST" action=""> {% csrf_token %}
+            <h3>Are you sure you want to delete? It's permanent!</h3>
+            <div class="row mt-5">
+                <div class="col">
+                    <input type="submit" value="Yes" class="btn btn-outline-danger btn-lg"/>
+                </div>
+                <div class="col">
+                    <a href="/show_invoices"><div class="btn btn-outline-success btn-lg">Cancel</div> </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
