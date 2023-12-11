@@ -1,0 +1,94 @@
+.myForm{
+    margin: 30px;
+}
+
+.table {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #A9A9A9;
+}
+
+.table tr:nth-child(odd){
+    background: #FFFAFA;
+}
+.table tr:nth-child(even){
+    background: #FFF0F5;
+}
+
+.background{
+    background-color: #F0F8FF;
+}
+
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 50px rgba(0,0,0,0.3) inset;
+}
+
+.form-label{
+    visibility: hidden !important;
+    display: none !important;
+}
+
+.popup-bng{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: white;
+    z-index: 10;
+}
+
+.popup {
+    width: 400px;
+    background: #ADD8E6;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    z-index: 15;
+}
+
+.popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: crosshair;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.remove{
+    visibility: hidden;
+    opacity: 0;
+}

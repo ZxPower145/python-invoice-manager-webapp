@@ -1,0 +1,84 @@
+body {
+  overflow: hidden;
+}
+
+.col-sm-9 {
+  width: 100%;
+}
+
+.myForm {
+  position: relative;
+  box-sizing: border-box;
+  height: 75vh;
+  max-width: 60vh;
+  margin-left: 25vh;
+  margin-top: 5vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 15px 30px -12px inset, rgba(0, 0, 0, 0.3) 0 6px 18px -18px inset, rgba(0, 0, 0, 0.35) 0 5px 15px;
+  padding: 20px;
+}
+
+.scroll {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 25vh;
+  max-width: 60vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-bottom: 45px;
+  padding: 15px;
+}
+
+.recent {
+  position: relative;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  top: -5vh;
+  right: -20vh;
+  border-radius: 360px;
+  border: 1px solid black;
+  max-width: 45vh;
+  height: 75vh;
+  min-height: 75vh;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 10vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 15px 30px -12px inset, rgba(0, 0, 0, 0.3) 0 6px 18px -18px inset, rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.recent::-webkit-scrollbar {
+  display: none;
+}
+
+.recent-invoices {
+  color: black;
+  font-size: 30px;
+}
+
+.instance-number-name {
+  color: black;
+}
+
+.instance-total {
+  border-top: 1px solid black;
+  color: white;
+}
+
+.h3 {
+  margin-top: 5px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.border-contents {
+  border-top: 1px solid black;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=entry.css.map */
